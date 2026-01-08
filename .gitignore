@@ -1,0 +1,27 @@
+# ===== macOS =====
+.DS_Store
+
+# ===== Python / Django (на будущее) =====
+__pycache__/
+*.py[cod]
+*.sqlite3
+.env
+.env.*
+venv/
+.venv/
+
+# ===== Django media & static (на сервере) =====
+media/
+staticfiles/
+
+# ===== IDE / редакторы =====
+.vscode/
+.idea/
+
+# ===== Node (если появится) =====
+node_modules/
+
+# ===== Logs =====
+*.log
+
+index.py/
